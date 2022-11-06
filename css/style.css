@@ -104,7 +104,7 @@ body {
   color: #fff;
   font-family: 'windowsprompt';
   text-align: center;
-  font-size: 78px;
+  font-size: 45px;
   z-index: 9;
   text-transform: uppercase;
 }
@@ -139,10 +139,92 @@ body {
 }
 
 .wrapper-2 section.module.parallax-1 {
-  background-image: url("../public/img/face.jpg");
+  background-image: url("../public/img/experience.jpg");
 }
 
 .wrapper-2 section.module.parallax.parallax-1 h1{
+  color: #fff;
+  text-align: center;
+  font-size: 78px;
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+
+.wrapper-3 section.module.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.wrapper-3 section.module.parallax:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+.wrapper-3 section.module.parallax-1 {
+  background-image: url("../public/img/certificate.jpg");
+}
+
+.wrapper-3 section.module.parallax.parallax-1 h1{
+  color: #fff;
+  text-align: center;
+  font-size: 78px;
+  z-index: 9;
+  text-transform: uppercase;
+}
+
+
+.wrapper-4 section.module.parallax{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh !important;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.wrapper-4 section.module.parallax:after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 8;
+  background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+.wrapper-4 section.module.parallax-1 {
+  background-image: url("../public/img/face.jpg");
+}
+
+.wrapper-4 section.module.parallax.parallax-1 h1{
   color: #fff;
   text-align: center;
   font-size: 78px;
@@ -223,10 +305,51 @@ body {
   margin-bottom: 10px;
 }
 
-.card.projects {
+
+
+
+
+.card-icon-header-certificate {
+  padding: 30px;
+}
+
+.row.title-desc {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.card-icon-header-certificate p{
+  margin-left: 10px;
+}
+
+.card-body-certificate {
+  padding: 15px;
+}
+
+.card-icon-header {
   padding: 20px;
 }
 
-.card.projects [class*='col-'] {
-  float:none;
+
+
+.footer {
+  width: 100%;
+  background-color: #000;
 }
+
+.footer h5 {
+  color: white;
+  text-decoration: none !important;
+}
+
+.footer i {
+  margin-right: 1%;
+}
+
+.footer h5 a{
+  text-decoration: none !important;
+}
+
+
+
+
